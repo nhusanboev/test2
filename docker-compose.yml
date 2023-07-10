@@ -1,0 +1,48 @@
+version: '3'
+services:
+  load-balancer:
+    build:
+      context: ./load-balancer
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    depends_on:
+      - service1
+      - service2
+      - service3
+
+  service1:
+    build:
+      context: ./service1
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+
+  service2:
+    build:
+      context: ./service2
+      dockerfile: Dockerfile
+    ports:
+      - 8001:8001
+
+  service3:
+    build:
+      context: ./service3
+      dockerfile: Dockerfile
+    ports:
+      - 8002:8002
+
+  service4:
+    build:
+      context: ./service4
+      dockerfile: Dockerfile
+    ports:
+      - 8003:8003
+  
+  service5:
+    build:
+      context: ./service5
+      dockerfile: Dockerfile
+    ports:
+      - 8004:8004
+ 
