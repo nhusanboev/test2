@@ -1,0 +1,11 @@
+go 1.20
+
+use (
+	.
+	./load-balancer
+	./service1
+	./service2
+	./service3
+	./service4
+	./service5
+)
