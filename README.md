@@ -19,7 +19,7 @@ The load balancer will listen on port 8080 and distribute incoming requests to t
 
 ## Services
 
-The project includes three services, namely `service1`, `service2`, and other 3 services. Each service handles specific functionality and communicates with the load balancer.
+The project includes five services, namely `service1`, `service2`, and other 3 services. Each service handles specific functionality and communicates with the load balancer.
 
 ### Building and Running
 
