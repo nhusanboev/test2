@@ -1,10 +1,10 @@
 {
     "web_services": [
-      "http://localhost:8000",
-      "http://localhost:8001",
-      "http://localhost:8002",
-      "http://localhost:8003",
-      "http://localhost:8004"
+      "http://service1:8000",
+      "http://service2:8001",
+      "http://service3:8002",
+      "http://service4:8003",
+      "http://service5:8004"
     ]
   }
   

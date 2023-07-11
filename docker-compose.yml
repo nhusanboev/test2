@@ -10,6 +10,8 @@ services:
       - service1
       - service2
       - service3
+      - service4
+      - service5
 
   service1:
     build:

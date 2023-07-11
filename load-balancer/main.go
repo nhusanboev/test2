@@ -151,7 +151,7 @@ func (lb *LoadBalancer) checkServiceAvailability() {
 		// Check availability of each service
 		for _, service := range lb.services {
 			// Send a GET request to the health check endpoint of the service
-			resp, err := http.Get(service.String() + "/health-check")
+			resp, err := http.Get(service.String() + "/")
 			if err != nil {
 				log.Printf("Service %s is unavailable\n", service.String())
 				continue
